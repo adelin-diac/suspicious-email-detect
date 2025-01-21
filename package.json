@@ -1,0 +1,32 @@
+{
+  "name": "suspicious-email-detect",
+  "version": "1.0.0",
+  "description": "A simple package to detect suspicious email addresses based on known spam/disposable domains.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "keywords": [
+    "email",
+    "spam",
+    "security",
+    "validation",
+    "suspicious"
+  ],
+  "author": "Adelin Diac",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "spam-domains.js",
+    "index.test.js"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  }
+}
