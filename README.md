@@ -35,6 +35,10 @@ Checks if an email address is suspicious based on its domain.
 - `email`: The email address to check
 - Returns: `true` if the email is suspicious, `false` otherwise
 
+## How it works
+
+This package uses a list of known spam domains and checks if the domain of the email address is in the list. If you find a new spam domain that is not in the list, please create a pull request to add it.
+
 ## License
 
 MIT
