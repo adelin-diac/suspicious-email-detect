@@ -2,6 +2,8 @@
 
 A lightweight package to detect suspicious email addresses based on known spam domains.
 
+https://www.npmjs.com/package/suspicious-email-detect
+
 ## Installation
 
 ```bash
